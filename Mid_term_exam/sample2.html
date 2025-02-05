@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html ng-app="welcomeApp">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+</head>
+<body ng-controller="WelcomeController">
+
+    
+    <input type="text" ng-model="Input" />
+    <p>Welcome to {{ Input }}</p>
+
+    <script>
+        var app = angular.module('welcomeApp', []);
+        app.controller('WelcomeController', function($scope) {
+            
+        });
+    </script>
+
+</body>
+</html>

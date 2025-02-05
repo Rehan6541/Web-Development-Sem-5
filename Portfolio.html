@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+</head>
+<body>
+    <header>
+        <hi>Rehan Attar</hi>
+        <p>I am a Enginnering student</p>
+        <img src="C:\Users\Hp\Desktop\DSC_04011.jpg" alt="my image" height="100px" width="100px"/>
+        <hr>
+    </header>
+    <!--Portfolio Sections-->
+    <section>
+        <h2>Educaton</h2>
+        <ul>
+            <li><b>Class X</b>(CBSE) : 9 CGPA</li>
+            <li><b>Class XII</b>(HSC) : 8 CGPA</li>
+            <li><b>B.Tech</b>(SCOE) : 8.8 CGPA</li>
+        </ul>
+        <hr>
+    </section>
+
+    <section>
+        <h2>Skills</h2>
+        <ul>
+            <li>Python</li>
+            <li>MySQL</li>
+            <li>C++</li>
+        </ul>
+        <hr>
+    </section>
+
+    <section>
+        <h2>Hobbies</h2>
+        <ul>
+            <li>Kabbadi</li>
+            <li>GK</li>
+            <li>Movies</li>
+        </ul>
+        <hr>
+    </section>
+
+    <footer>
+        <h2>contact</h2>
+        <ul>
+            <li><b>Email</b>- rehanattar6541@gmail.com</li>
+            <li><b>Mobile</b>- 9172215588</li>
+            <li><a href="www.google.com"></a></li>
+        </ul>
+        <h3>Made with &hearts; by me</h3>
+    </footer>
+S
+</body>
+</html>
+
+
+<script>
+    function registration() {
+        var name = document.getElementById("username").value;
+        if (name == "") {
+            alert('Please enter your name');
+            return false; 
+        }
+        return true; 
+    }
+
+    function handleSubmit() {
+        if (registration()) {
+            document.querySelector('form').submit(); 
+        }
+    }
+</script>
